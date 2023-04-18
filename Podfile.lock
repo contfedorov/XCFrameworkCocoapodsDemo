@@ -1,0 +1,16 @@
+PODS:
+  - MyFramework (1.0.0)
+
+DEPENDENCIES:
+  - MyFramework (= 1.0.0)
+
+SPEC REPOS:
+  "/Users/efedorov/Downloads/arcgis-maps-sdk-swift-2/xcframework-cocoapods-tut/MySpecs.git":
+    - MyFramework
+
+SPEC CHECKSUMS:
+  MyFramework: 6183d55bca1e3fb322985b241fc609cc3e48acfe
+
+PODFILE CHECKSUM: 9baa4d5fce7977a50912bdb9ec2a44a831b7c01b
+
+COCOAPODS: 1.12.0
