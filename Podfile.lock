@@ -1,16 +1,24 @@
 PODS:
+  - ArcGIS-Swift-2 (200.0.0-beta)
+  - CoreArcGIS-Swift-2 (200.0.0-beta)
   - MyFramework (1.0.0)
 
 DEPENDENCIES:
+  - ArcGIS-Swift-2 (= 200.0.0-beta)
+  - CoreArcGIS-Swift-2 (= 200.0.0-beta)
   - MyFramework (= 1.0.0)
 
 SPEC REPOS:
-  "/Users/efedorov/Downloads/arcgis-maps-sdk-swift-2/xcframework-cocoapods-tut/MySpecs.git":
+  https://github.com/contfedorov/custom-podspecs.git:
+    - ArcGIS-Swift-2
+    - CoreArcGIS-Swift-2
     - MyFramework
 
 SPEC CHECKSUMS:
+  ArcGIS-Swift-2: 3438245ace6d8c718075970c6f20f65f8c0030cf
+  CoreArcGIS-Swift-2: 4e443b3b29bc979708b4d7ea0fc5a3ab782e0f78
   MyFramework: 6183d55bca1e3fb322985b241fc609cc3e48acfe
 
-PODFILE CHECKSUM: 9baa4d5fce7977a50912bdb9ec2a44a831b7c01b
+PODFILE CHECKSUM: 52c2e150052274482c176f13b26b5d0816adb6e5
 
 COCOAPODS: 1.12.0
