@@ -1,4 +1,4 @@
 target 'XCFrameworkCocoapodsDemo' do
     use_frameworks!
-    pod 'MyFramework', '1.0.0', :source => "/Users/efedorov/Downloads/arcgis-maps-sdk-swift-2/xcframework-cocoapods-tut/MySpecs.git"
+    pod 'MyFramework', '1.0.0', :source => "https://github.com/contfedorov/custom-podspecs.git"
 end
