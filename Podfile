@@ -4,6 +4,7 @@ target 'XCFrameworkCocoapodsDemo' do
 
 #    pod 'ArcGIS-Maps-SDK-Swift-2', '200.0.0-beta', :source => 'https://github.com/contfedorov/custom-podspecs.git'
 
-     pod 'ArcGIS-Swift-2', '200.0.0-beta', :source => 'https://github.com/contfedorov/custom-podspecs.git'
-     pod 'CoreArcGIS-Swift-2', '200.0.0-beta', :source => 'https://github.com/contfedorov/custom-podspecs.git'
+	pod "ArcGIS-Swift-2", :podspec => './ArcGIS-Swift-2.podspec'
+	pod "CoreArcGIS-Swift-2", :podspec => './CoreArcGIS-Swift-2.podspec'
+
 end

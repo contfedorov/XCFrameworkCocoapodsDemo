@@ -1,24 +1,28 @@
 PODS:
-  - ArcGIS-Swift-2 (200.0.0-beta)
-  - CoreArcGIS-Swift-2 (200.0.0-beta)
+  - ArcGIS-Swift-2 (200.1.0)
+  - CoreArcGIS-Swift-2 (200.1.0)
   - MyFramework (1.0.0)
 
 DEPENDENCIES:
-  - ArcGIS-Swift-2 (= 200.0.0-beta)
-  - CoreArcGIS-Swift-2 (= 200.0.0-beta)
+  - ArcGIS-Swift-2 (from `./ArcGIS-Swift-2.podspec`)
+  - CoreArcGIS-Swift-2 (from `./CoreArcGIS-Swift-2.podspec`)
   - MyFramework (= 1.0.0)
 
 SPEC REPOS:
   https://github.com/contfedorov/custom-podspecs.git:
-    - ArcGIS-Swift-2
-    - CoreArcGIS-Swift-2
     - MyFramework
 
+EXTERNAL SOURCES:
+  ArcGIS-Swift-2:
+    :podspec: "./ArcGIS-Swift-2.podspec"
+  CoreArcGIS-Swift-2:
+    :podspec: "./CoreArcGIS-Swift-2.podspec"
+
 SPEC CHECKSUMS:
-  ArcGIS-Swift-2: 3438245ace6d8c718075970c6f20f65f8c0030cf
-  CoreArcGIS-Swift-2: 4e443b3b29bc979708b4d7ea0fc5a3ab782e0f78
+  ArcGIS-Swift-2: efb0bdd3679865e330f5d413208c9fe7f6e6cec7
+  CoreArcGIS-Swift-2: aa68b81db8d8cdee4ac1ab1492a80f830f59c17e
   MyFramework: 6183d55bca1e3fb322985b241fc609cc3e48acfe
 
-PODFILE CHECKSUM: 52c2e150052274482c176f13b26b5d0816adb6e5
+PODFILE CHECKSUM: 8b2e24e1adad14c573b44fdad4772f412b134c83
 
 COCOAPODS: 1.12.0
